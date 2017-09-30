@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Update Data</title>
+<h1>Update Data</h1>
+</head>
+<body>
+
+<form action = "update.php" method = "POST">
+	<table border = "0">
+		<tbody>
+			<tr>
+				<td>Choose Attribute</td>
+				<td><select name = "choose1">
+						<option>UserID</option>
+						<option>Password</option>
+						<option>Name</option>
+						<option>Email</option>
+					</select>
+				</td>
+			<tr>
+				<td>Old value</td>
+				<td><input type = "text" value = "" name = "oldval" size = "20"></td>
+			</tr>
+			<tr>
+				<td>Choose Attribute</td>
+				<td><select name = "choose2">
+						<option>UserID</option>
+						<option>Password</option>
+						<option>Name</option>
+						<option>Email</option>
+					</select>
+				</td>
+			<tr>
+			<tr>
+				<td>Updated value</td>
+				<td><input type = "text" value = "" name = "newval" size = "20"></td>
+			</tr>
+		</tbody>
+	</table>
+	<input type = "submit" value = "update" name = "update">
+</form>
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Delete Data</title>
+<h1>Delete Data</h1>
+</head>
+<body>
+
+<form action = "delete.php" method = "POST">
+	<table border = "0">
+		<tbody>
+			<tr>
+				<td>Choose Attribute</td>
+				<td><select name = "choose">
+						<option>UserID</option>
+						<option>Password</option>
+						<option>Name</option>
+						<option>Email</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Delete value</td>
+				<td><input type = "text" value = "" name = "val" size = "20"></td>
+			</tr>
+		</tbody>
+	</table>
+	<input type = "submit" value = "delete" name = "delete">
+</form>
+
+</body>
+</html>
