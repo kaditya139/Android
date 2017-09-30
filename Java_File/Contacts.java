@@ -1,8 +1,5 @@
 package com.example.user.project;
 
-/**
- * Created by User on 25-09-2017.
- */
 public class Contacts {
 
     public Contacts(String username, String password, String name, String email) {
